@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belated Happy Valentine's my Precious <33</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap');
+        
+        body {
+            background: linear-gradient(to right, #ff758c, #ff7eb3);
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        .container {
+            padding: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        h1 {
+            font-size: 3rem;
+            margin-top: 20px;
+            font-family: 'Great Vibes', cursive;
+            text-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+        }
+        .heart {
+            font-size: 2rem;
+            animation: heartbeat 1.5s infinite;
+        }
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+        .message {
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-top: 20px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 15px;
+            display: inline-block;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+            animation: slideIn 2s ease-in-out;
+        }
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(-50px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+            animation: fadeIn 2s ease-in-out;
+        }
+        .music {
+            margin-top: 20px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+            animation: fadeIn 2s ease-in-out;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: black;
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+            display: none;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+            border: 3px solid red;
+        }
+        .popup.show {
+            opacity: 1;
+        }
+        .popup.hide {
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        .popup img {
+            width: 250px;
+        }
+        .close-button {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            background: red;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .surprise-button {
+            margin-top: 20px;
+            padding: 15px;
+            font-size: 1.2rem;
+            background: #ff4d6d;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: button;
+            transition: 0.3s;
+        }
+        .surprise-button:hover {
+            background: #e63950;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Belated Happy Valentine's my Precious <span class="heart">❤️</span></h1>
+        <p class="message">From the moment we met, everything in my life shifted. There was a quiet realization that life was suddenly richer, more colorful, and filled with a kind of joy I didn’t know was possible. You’ve been my laughter on the darkest days, the calm in the midst of a storm, and the inspiration behind every step I take in order for me to become a better person. You’ve shown me love that is patient, kind, and a pure one that I never want to take for granted. Each day I spend with you is a blessing, and I am eagerly looking forward to all the days yet to come. You have taught me so much not just about love, but also about myself. You have shown me that I am stronger than I ever knew, and you have empowered me to dream greater. You are my best friend, my partner, my biggest supporter, and my soulmate, and in you, I have found them all. Ik I've made a lot of mistakes, and for that, I am deeply sorry. I never want to hurt you, and if I have, I want you to know that I regret it deeply. I hope you can forgive me in your heart because I am committed to being the best version of myself for you, for us rather. My life really has changed. I found my love, I found my reason; I found a truth that I didn't know I was looking for. All of those things I discovered in you. I love you more than words could ever tell. You are my everything💕</p>
+        
+        <div class="gallery">
+            <img src="https://surl.li/jqkhzk" alt="Photo 1">
+            <img src="https://surl.li/sciloj" alt="Photo 2">
+            <img src="https://surl.li/zwudbg" alt="Photo 3">
+        </div>
+        
+        <div class="music">
+            <p>Here's a song that reminds me of you:</p>
+            <h2></h2>
+    <audio controls>
+        <source src="blue (Official Music Video).mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+            </audio>
+        </div>
+        
+        <button class="surprise-button" onclick="openPopup()">Click here for a surprise coz Ik you love surprises hehe</button>
+        
+        <div class="popup" id="flowerPopup">
+            <button class="close-button" onclick="closePopup()">&times;</button>
+            <p>These flowers are for you, my love! 🌸💐🌹They're pink and green because it reminds me of us <33 </p>
+            <img src="https://surl.li/leekhl" alt="Flowers">
+        </div>
+    </div>
+    
+    <script>
+        function openPopup() {
+            var popup = document.getElementById("flowerPopup");
+            popup.style.display = "block";
+            setTimeout(() => popup.classList.add("show"), 10);
+        }
+        function closePopup() {
+            var popup = document.getElementById("flowerPopup");
+            popup.classList.remove("show");
+            setTimeout(() => popup.style.display = "none", 500);
+        }
+    </script>
+</body>
+</html>
